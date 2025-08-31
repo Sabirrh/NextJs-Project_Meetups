@@ -15,7 +15,7 @@ function HomePage(props) {
     )
 };
 export async function getStaticProps() {
-    const client = await MongoClient.connect('mongodb+srv://Sabirrh:Sabir12@cluster0.beuq8do.mongodb.net/meetups?retryWrites=true&w=majority&appName=Cluster0');
+    const client = await MongoClient.connect(process.env.MONGODB_URI);
     const db = client.db();
     const meetups = await db.collection('meetups').find().toArray();
     client.close();

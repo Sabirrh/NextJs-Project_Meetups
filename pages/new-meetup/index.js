@@ -2,6 +2,7 @@ import { Fragment } from 'react';
 import NewMeetupForm from '../../components/meetups/NewMeetupForm';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
+import dynamic from 'next/dynamic';
 function NewMeetupPage() {
     const router = useRouter();
     async function addMeetupHandler(enteredMeetupData) {
@@ -13,7 +14,6 @@ function NewMeetupPage() {
             }
         })
         const data = await response.json();
-        console.log(data);
         router.push('/');
     };
     return (
