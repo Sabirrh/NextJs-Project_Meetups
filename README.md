@@ -57,7 +57,7 @@ Follow these steps to set up and run the project locally:
    ```bash
    npm run dev
    ```
-5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
+5. Open [(https://next-js-project-meetups-60yb3u70m.vercel.app]([https://next-js-project-meetups-60yb3u70m.vercel.]) in your browser to view the app.
 
 ## Folder Structure
 
@@ -107,7 +107,7 @@ This project is licensed for educational purposes.
 
 **Sabirrh**  
 GitHub: [Sabirrh](https://github.com/Sabirrh)  
-Email: your-email@example.com
+Email: sabirrh1@gmail.com
 
 ---
 
@@ -152,7 +152,7 @@ styles/           # Global styles
    ```bash
    npm run dev
    ```
-3. Open [http://localhost:3000](http://localhost:3000) to view the app.
+3. Open [https://next-js-project-meetups-60yb3u70m.vercel.app](https://next-js-project-meetups-60yb3u70m.vercel.app) to view the app.
 
 ## Scripts
 - `npm run dev` — Start development server
